@@ -15,6 +15,5 @@ RUN env GO15VENDOREXPERIMENT=1 \
 # Multistage
 FROM scratch
 COPY --from=builder /apache_exporter /apache_exporter
-dsqlkjdqlkdsqj&
 
 ENTRYPOINT ["/apache_exporter"]
